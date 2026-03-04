@@ -1,5 +1,4 @@
-// src/pages/Home.jsx
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import TestimonialSlider from "../components/TestimonialSlider";
 import { faTruck, faJugDetergent, faDoorOpen } from '@fortawesome/free-solid-svg-icons';
@@ -59,7 +58,7 @@ export default function Home() {
             <div className="step" data-aos="fade-up" data-aos-delay="100">
               <FontAwesomeIcon icon={faTruck} size="4x" color="red"/>
               <h3>Schedule Pickup</h3>
-              <p>Choose a pickup time that works for you. We’ll handle the rest.</p>
+              <p>Choose a pickup time that works for you. We'll handle the rest.</p>
             </div>
 
             <div className="step" data-aos="fade-up" data-aos-delay="300">
@@ -89,9 +88,9 @@ export default function Home() {
           <div className="services-grid">
 
             <div className="service-card" data-aos="zoom-in-up" data-aos-delay="100">
-              <img
-                src="/src/assets/services/wash-fold.jpg"
-                alt="Wash and Fold Service"
+              <img 
+                src="https://images.unsplash.com/photo-1582735689369-4fe89db7114c?w=500&h=350&fit=crop&q=80" 
+                alt="Wash and Fold Service - Neatly folded laundry" 
               />
               <h3>Wash & Fold</h3>
               <p>
@@ -101,9 +100,9 @@ export default function Home() {
             </div>
 
             <div className="service-card" data-aos="zoom-in-up" data-aos-delay="300">
-              <img
-                src="/src/assets/services/dry-cleaning.jpg"
-                alt="Dry Cleaning Service"
+              <img 
+                src="https://images.unsplash.com/photo-1517677208171-0bc6725a3e60?w=500&h=350&fit=crop&q=80" 
+                alt="Dry Cleaning Service - Professional garment care" 
               />
               <h3>Dry Cleaning</h3>
               <p>
@@ -113,9 +112,9 @@ export default function Home() {
             </div>
 
             <div className="service-card" data-aos="zoom-in-up" data-aos-delay="500">
-              <img
-                src="/src/assets/services/ironing.jpg"
-                alt="Ironing Service"
+              <img 
+                src="https://images.unsplash.com/photo-1489274495757-95c7c837b101?w=500&h=350&fit=crop&q=80" 
+                alt="Ironing Service - Crisp pressed clothes" 
               />
               <h3>Ironing</h3>
               <p>
